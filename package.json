@@ -1,0 +1,24 @@
+{
+  "name": "niftex-gr8-hackathon",
+  "version": "1.0.0",
+  "description": "ERC-20 Low cost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerfred/niftex-gr8-hackathon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developerfred/niftex-gr8-hackathon/issues"
+  },
+  "homepage": "https://github.com/developerfred/niftex-gr8-hackathon#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@optionality.io/clone-factory": "^0.2.1"
+  }
+}
