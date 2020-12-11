@@ -1,4 +1,4 @@
-# Niftex Low Cost Patterm
+# Niftex Low Cost Pattern
 
 ERC-20 Low cost
 
