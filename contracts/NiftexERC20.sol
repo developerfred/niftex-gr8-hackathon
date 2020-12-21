@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
-import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 
 library SafeMath {function add(uint256 a, uint256 b) internal pure returns (uint256) {uint256 c = a + b; require(c >= a); return c;} function sub(uint256 a, uint256 b) internal pure returns (uint256) {require(b <= a); uint256 c = a - b; return c;}}
-contract NiftexToken is ERC20Pausable {using SafeMath for uint256;
+contract NiftexToken {using SafeMath for uint256;
     address public owner;
     string public name;
     string public symbol;
